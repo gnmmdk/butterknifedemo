@@ -26,7 +26,7 @@ import javax.lang.model.element.TypeElement;
 import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.Elements;
 import javax.tools.JavaFileObject;
-
+//编译时的调试方法 https://blog.csdn.net/zhangteng22/article/details/54946270
 //通过auto-service中的@AutoService可以自动生成，AutoService注解处理器是Google开发的
 @AutoService(Processor.class)
 public class ButterKnifeProcess extends AbstractProcessor {
